@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: darkedges.forgerock_common
   author: darkedges
   description: ForgeRock User for Linux.
   company: "DarkEdges"

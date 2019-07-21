@@ -5,16 +5,16 @@
     name: "{{ fr_group }}"
 
 - name: "Create ForgeRock User - {{ fr_user }}"
-  user: 
-    name: "{{ fr_user }}" 
+  user:
+    name: "{{ fr_user }}"
     group: "{{ fr_group }}"
-    system: yes 
-    comment: "ForgeRock Demo Account" 
+    system: "yes"
+    comment: "ForgeRock Demo Account"
     shell: '/bin/bash'
 
 - name: update sudoers file
-  lineinfile: 
+  lineinfile:
     dest: "/etc/sudoers"
-    state: present 
-    regexp: "^%{{ fr_user }}" 
-    line: "%{{ fr_user }} ALL=(ALL) NOPASSWD: ALL"      
+    state: present
+    regexp: "^%{{ fr_user }}"
+    line: "%{{ fr_user }} ALL=(ALL) NOPASSWD: ALL"
