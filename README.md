@@ -1,5 +1,7 @@
 # Ansible Role: ForgeRock Common
 
+[![Build Status](https://travis-ci.com/darkedges/ansible-role-forgerock-common.svg?branch=master)](https://travis-ci.com/darkedges/ansible-role-forgerock-common)
+
 ## License
 
 Copyright © 2019 [DarkEdges](https://github.com/darkedges).  

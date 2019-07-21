@@ -2,3 +2,5 @@
 
 fr_group: forgerock
 fr_user: forgerock
+
+forgerock_common_install_packages: false
